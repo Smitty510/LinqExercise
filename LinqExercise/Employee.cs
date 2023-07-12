@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace LinqExercise
+﻿namespace LinqExercise
 {
     internal class Employee
     {
@@ -24,11 +20,12 @@ namespace LinqExercise
             LastName = lastName;
             Age = age;
             YearsOfExperience = yearsOfExperience;
+
         }
-        
+
         public Employee()
         {
-            
+
         }
     }
 }
